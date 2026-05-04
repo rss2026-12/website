@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RSS Portfolio - Final</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../style.css">
+  <script src="../../theme.js"></script>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="../../#home" class="nav-brand">RSS Team 12</a>
+    <div class="nav-links">
+      <a href="../../#about" data-robot="🤖">About</a>
+      <a href="../" data-robot="🦾"><i class="fa fa-folder"></i> Labs</a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" data-robot="🛸"><i class="fa fa-camera"></i> Videos</a>
+      <a href="https://github.com/mit-rss" data-robot="🔧"><i class="fa fa-github"></i> Github</a>
+    </div>
+    <button class="nav-toggle" id="navToggle"><i class="fa fa-bars"></i></button>
+  </div>
+</nav>
+
+<!-- Mobile Sidebar -->
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<nav class="mobile-sidebar" id="mobileSidebar">
+  <a href="../../#about">About</a>
+  <a href="../">Labs</a>
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Videos</a>
+  <a href="https://github.com/mit-rss">Github</a>
+</nav>
+
+<!-- Hero Header -->
+<header class="hero" style="background-image: url('../../img/mit.jpg');">
+  <div class="hero-content">
+    <h1>Final</h1>
+  </div>
+</header>
+
+<!-- Lab 6 Content -->
+<div class="lab-content" id="lab-6">
+  <h1>Lab 6 Briefing Slides</h1>
+  <p>
+    View the Lab 6 briefing slides below, or open them in Google Slides:
+  </p>
+  <p>
+    <a href="https://docs.google.com/presentation/d/1iBV1yD_ViGqstV-iLbouXgiIdNLPy4gYqpIrJoY5bxY/edit?usp=sharing"
+       class="btn-outline btn" target="_blank" rel="noopener">
+      <i class="fa fa-external-link"></i> Open in Google Slides
+    </a>
+  </p>
+
+  <p>
+    <a href="../../latex_report/lab6_report.pdf" download class="btn-outline btn">
+      <i class="fa fa-download"></i> Download Lab 6 Report
+    </a>
+  </p>
+
+  <!-- Embedded Google Slides -->
+  <iframe
+    src="https://docs.google.com/presentation/d/1iBV1yD_ViGqstV-iLbouXgiIdNLPy4gYqpIrJoY5bxY/embed?start=false&loop=false&delayms=3000"
+    style="width: 95%; max-width: 960px; height: 569px; border: none; display:block; margin:20px auto;"
+    allowfullscreen="true"
+    mozallowfullscreen="true"
+    webkitallowfullscreen="true">
+  </iframe>
+</div>
+
+  
+<!-- Embedded PDF -->
+<object data="../../latex_report/lab6_report.pdf" type="application/pdf" width="100%" height="935px" style="display:block; margin:20px auto;">
+  <embed src="../../latex_report/lab6_report.pdf">
+  </embed>
+</object>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-nav">
+    <a href="../" class="btn"><i class="fa fa-arrow-left"></i> Lab Home</a>
+    <a href="#lab-6" class="btn"><i class="fa fa-arrow-up"></i> To the top</a>
+  </div>
+  <p class="credit">Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+</footer>
+
+<!-- Theme Switcher -->
+<button class="theme-toggle-btn" id="themeToggleBtn"><i class="fa fa-paint-brush"></i></button>
+<div class="theme-panel" id="themePanel">
+  <h4>Accent Color</h4>
+  <div class="color-swatches">
+    <div class="color-swatch" data-color="red" title="Red"></div>
+    <div class="color-swatch" data-color="blue" title="Blue"></div>
+    <div class="color-swatch" data-color="teal" title="Teal"></div>
+    <div class="color-swatch" data-color="purple" title="Purple"></div>
+    <div class="color-swatch" data-color="orange" title="Orange"></div>
+  </div>
+  <div class="dark-toggle">
+    <span>Dark Mode</span>
+    <label class="switch">
+      <input type="checkbox" id="darkModeCheckbox">
+      <span class="slider"></span>
+    </label>
+  </div>
+</div>
+
+</body>
+</html>
